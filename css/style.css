@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.section{
+    padding: 70px 0;
+}
+
+#header{
+    color: #fff;
+	background: #e74c3c;
+}
+#logo{
+	font-size: 2rem;
+	/* margin-top: 5px; */
+}
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu a{
+    color: #fff;
+    padding: 15px 10px;
+    display: block;
+}
+a:hover{
+    text-decoration: none;
+    
+}
+#menu a:hover{
+    color: #fff;
+    background: #c0392b;
+
+}
+#banner{
+    background: url(../images/banner.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.banner-title{
+    padding-top: 5rem;
+}
+.banner-title h1{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    display: inline-block;
+    margin: 0;
+
+}
+p.lead{
+    color: #fff;
+    background: rgba(231, 77, 60, 0.8);
+    padding: 10px;
+}
+.section .head{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section .head::after{
+    background: #e74c3c;
+    margin: 20px auto; /*mistake*/
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+}
+.service-box{
+    text-align: center;
+}
+
+
+.service-box i.fa{
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+.service-box h3{
+    margin-bottom: 15px;
+}
+.service-box p{
+    margin-bottom: 16px;
+}
+#testimonial{
+    color: #fff;
+    background: url(../images/testimonial-bg.jpg) no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+	position: relative; /*why relative*/
+}
+
+/* not clear much */
+#testimonial::before{
+    background-color: rgba(52, 73, 94,0.7);
+    content: "";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+#testimonial img{
+	border-radius: 50%;
+	margin-bottom: 5px;
+}
+
+.news-post img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.news-post h3{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+
+}
+.news-post h3 a{
+    color: #e74c3c;
+}
+.news-post .post-date{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.post-date:before{
+	content: "\f073";
+	font-family: FontAwesome; /* earlier mistake in name of font family and forget '' this*/ 
+	padding-right: 5px;
+}
+a.readmore{
+    font-size: 14px;
+    color: #e74c3c;
+}
+a.readmore:after{
+    content: "\f101";
+    font-family: FontAwesome;
+	padding-left: 5px;
+}
+#footer-sidebar{
+    color: #fff;
+    background-color: #34495e;
+    padding: 20px 0;
+}
+.footer-widget h4::after{
+    background-color: #fff;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+}
+.latest-news a{
+    text-decoration: none;
+    color: white;
+    /* padding-left: -10px ; */
+    margin: 0;
+    padding: 0;
+}
